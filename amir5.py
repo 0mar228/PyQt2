@@ -36,7 +36,7 @@ layoutH5.addWidget(text, alignment = Qt.AlignCenter)
 
 button_group.checkedId()
 
-layoutH5.setText("Выбрана кнопка под номером " + str(button_group.checkedId()))
+text.setText("Выбрана кнопка под номером " + str(button_group.checkedId()))
 
 layout_main.addLayout(layoutH1)
 layout_main.addLayout(layoutH2)
@@ -45,4 +45,4 @@ layout_main.addLayout(layoutH4)
 layout_main.addLayout(layoutH5)
 window.setLayout(layout_main)
 window.show()
-app.exec_()
+app.exec_() 
